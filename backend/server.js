@@ -9,7 +9,7 @@ const PORT = 5000;
 app.use(cors());
 app.use(bodyParser.json());
 
-// Use employee routes
+
 app.use("/api/employees", employeeRoutes);
 
 app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
